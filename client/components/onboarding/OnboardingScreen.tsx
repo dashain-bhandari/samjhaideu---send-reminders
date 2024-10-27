@@ -27,7 +27,7 @@ const OnboardingScreen = ({ data, index,translateX ,flatlistIndex,flatlistRef}: 
                 </View>
                 <Pagination translateX={translateX} />
                 </View>
-             <CustomizedButton  flatlistIndex={flatlistIndex} flatlistRef={flatlistRef} />
+             {/* <CustomizedButton  flatlistIndex={flatlistIndex} flatlistRef={flatlistRef} /> */}
             </View>
         </View>
     )
@@ -38,7 +38,8 @@ export default OnboardingScreen
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        height,
+    //   height:0.8*height,
+    flexGrow:1,
         justifyContent: "center",
         alignItems: "center",
         width: width,
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
     },
     flexContainer: {
         flex:1,
-        height,
+       
         flexDirection:"column",
        
         justifyContent: "space-evenly",

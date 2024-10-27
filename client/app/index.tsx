@@ -5,7 +5,7 @@ import { Redirect } from 'expo-router'
 
 const index = () => {
     return (
-        <Redirect href={"/(auth)/onboarding"}></Redirect>
+        <Redirect href={"/(auth)/register"}></Redirect>
     )
 }
 

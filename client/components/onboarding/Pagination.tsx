@@ -18,7 +18,7 @@ const Pagination = ({ translateX }: any) => {
         )
     }
     return (
-        <View style={{ flexDirection: "row", gap: 10,}}>
+        <View style={{ flexDirection: "row", gap: 4,}}>
             {
                 data?.map((item: any, index: any) => (<Page key={index} translateX={translateX} index={index} />))
             }

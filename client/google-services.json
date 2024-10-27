@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "821648540083",
+    "project_id": "expo-push-notifcation",
+    "storage_bucket": "expo-push-notifcation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821648540083:android:5bf2b2a08b8c080d328bc6",
+        "android_client_info": {
+          "package_name": "com.dashain.samjhaideu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821648540083-nk9iqmvjjb6pdemm71v1mkmts7oqchfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dashain.samjhaideu",
+            "certificate_hash": "3af61fd6cd064f62a1de27fe2a1b9bf1282805d3"
+          }
+        },
+        {
+          "client_id": "821648540083-66ukhl0bf6ovhpa69cmprmtmhm8m3cvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8-iBM50Y2J0GDHmWSO5KBRDhBzd4nG4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821648540083-66ukhl0bf6ovhpa69cmprmtmhm8m3cvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
